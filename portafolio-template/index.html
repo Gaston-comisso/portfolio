@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Marcelo Gaston Comisso</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="ruta/a/tu/foto.jpg" alt="Foto de Marcelo Gaston Comisso" class="profile-photo">
+            <nav class="nav-links">
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#contacto">Contacto</a>
+                <div class="social-icons">
+                    <a href="mailto:gastoncomisso@gmail.com" class="gmail" target="_blank">
+                        <i class="fas fa-envelope"></i> 
+                    </a>
+                    <a href="https://www.linkedin.com/in/gaston-comisso-59434b238/" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Gaston-comisso" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="main-content" >
+<section id="sobre-mi" class="section sobre-mi">
+        <div class="section-content">
+            <h2>Sobre mí</h2>
+            <p>Soy un estudiante de segundo año en Desarrollo de Software con experiencia en Python, Git, HTML, CSS, JavaScript, PHP y MySQL. He trabajado en diversos proyectos que abarcan desde el desarrollo web hasta el manejo de bases de datos.</p>
+            
+            <div class="tech-container">
+                <div class="cards">
+                    <div class="card card-one">
+                        <h2 class="card-title">Front-End</h2>
+                        <p class="description">HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="card card-two">
+                        <h2 class="card-title">Back-End</h2>
+                        <p class="description">Python, PHP, MySQL, JSON, Git</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hobbies">
+                <h3>Pasatiempos</h3>
+                <div class="hobbies-container">
+                    <div class="hobby-card">
+                        <i class="fas fa-tv"></i>
+                        <h4>Ver</h4>
+                        <p>Disfruto mucho ver series y deportes</p>
+                    </div>
+                    <div class="hobby-card">
+                        <i class="fas fa-gamepad"></i>
+                        <h4>Videojuegos</h4>
+                        <p>Me gusta jugar videojuegos en mi tiempo libre.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <i class="fas fa-futbol"></i>
+                        <h4>Deportes</h4>
+                        <p>Me gusta jugar al fútbol y practicar deportes al aire libre para mantenerme activo.</p>
+                    </div>
+                    <div class="hobby-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Explorar Tecnología</h4>
+                        <p>Exploro nuevas tecnologías y herramientas para aprender más.</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+        
+        
+        
+        
+
+        
+        <section id="proyectos" class="section projects">
+            <div class="section-content">
+                <h2>Proyectos</h2>
+                <div id="projects-container"></div>
+            </div>
+        </section>
+
+        <section id="experiencia-academica" class="section">
+            <div class="section-content">
+                <h2>Experiencia Académica</h2>
+                <p>A lo largo de mi carrera académica he adquirido una sólida formación en desarrollo de software y tecnologías relacionadas. Aquí te presento los detalles de mi experiencia académica:</p>
+                <div class="academic-experience">
+                    <div class="experience-item">
+                        <h3>Estudiante de Desarrollo de Software</h3>
+                        <p><strong>Institulo IES</strong> - 2023 - Presente</p>
+                        <p>Actualmente, estoy en segundo año de la carrera de Desarrollo de Software, donde estoy profundizando en áreas clave como programación, bases de datos y desarrollo web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+
+        <section id="contacto" class="section">
+            <div class="section-content">
+                <h2>Contacto</h2>
+                <p>Puedes ponerte en contacto a través del siguiente formulario:</p>
+                
+                <!-- Formulario de contacto -->
+                <form id="contact-form" class="contact-form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+                
+                <!-- Redes sociales -->
+                <p>También puedes contactar conmigo a través de mis redes sociales:</p>
+                <div class="social-links">
+                    <a href="mailto:gastoncomisso@gmail.com" class="gmail" target="_blank">
+                        <i class="fas fa-envelope"></i> Gmail
+                    </a>
+                    <a href="https://www.linkedin.com/in/gaston-comisso-59434b238/" class="lin" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/Gaston-comisso" class="git" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Marcelo Gaston Comisso. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
