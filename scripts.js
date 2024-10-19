@@ -82,6 +82,32 @@ window.addEventListener('scroll', function() {
         footer.classList.remove('visible');
     }
 });
+const $form = document.querySelector('#form')
+
+$form.addEventListener('submit', handleSubmit)
+
+async function handleSubmit(event) {
+    event.preventDefault() // Evita que el formulario redirija a otra página
+
+    const form = new FormData($form) // Captura los datos del formulario
+    const response = await fetch($form.action, {
+        method: $form.method,
+        body: form,
+        headers: {
+            'Accept': 'application/json' // Indicamos que esperamos un JSON como respuesta
+        }
+    })
+
+    if (response.ok) {
+        // Si la respuesta es exitosa (200 OK)
+        $form.reset() // Borra el formulario
+        alert('Gracias por contactarme, te escribiré pronto :D') // Muestra la alerta
+    } else {
+        // Si la respuesta no es exitosa
+        alert('Hubo un problema al enviar el mensaje. Inténtalo de nuevo.')
+    }
+}
+
 
 
 
