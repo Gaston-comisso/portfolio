@@ -17,10 +17,24 @@
         
             "nombre": "Copa América 2024",
             "descripcion": "Desarrollé una página informativa sobre la Copa América 2024 que permite a los usuarios ver noticias actuales, resultados de partidos, y estadísticas de los 10 mejores jugadores y los 5 mejores equipos. Los usuarios también pueden votar para elegir al mejor jugador y equipo de la Copa si inician sesión.",
-            "link": "https://github.com/Frankk-Castle/CopaAmerica",
+            "link": "https://github.com/Gaston-comisso/Proyecto-copaAmerica",
             "Tecnologías": "HTML, CSS, JavaScript, Bootstrap, Flask, MySQL",
             "image": "img/copa-america.png"  
         
         
+    },
+    {
+        "nombre": "TO-DO List",
+        "descripcion": "Una lista de tareas interactiva que permite agregar, modificar, eliminar y ordenar tareas por la hora del día. Implementada con JavaScript puro para la manipulación de tareas.",
+        "link": "https://github.com/Gaston-comisso/TO-DO-LIST",
+        "Tecnologías": "HTML, CSS, JavaScript",
+        "image": "img/todo.png"
+    },
+    {
+        "nombre": "Agencia de Viajes",
+        "descripcion": "Este proyecto es una simulación de una agencia de viajes con diferentes destinos. Muestra cómo manejar contenido dinámico en una página usando JavaScript para mostrar paquetes de viaje y testimonios de clientes.",
+        "link": "https://github.com/Gaston-comisso/AgenciaViajes", 
+        "Tecnologías": "HTML, CSS, JavaScript",
+        "image": "img/agenciaViajes.jpg"  
     }
 ]
